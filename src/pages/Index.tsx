@@ -173,7 +173,7 @@ const Index = () => {
           <Button
             size="lg"
             variant="outline"
-            className="border-gray-600 text-gray-100 hover:bg-gray-700"
+            className="border-gray-600 text-gray-100 hover:bg-gray-700 bg-[#1e1e2f]"
             onClick={() => navigate("/explore")}
           >
             Explore Courses
@@ -252,7 +252,7 @@ const Index = () => {
 
       {/* CTA */}
       <section className="container mx-auto px-4 py-20 text-center">
-        <Card className="max-w-3xl mx-auto bg-blue-500 text-white">
+        <Card className="max-w-3xl mx-auto bg-blue-950 text-white">
           <CardHeader>
             <CardTitle className="text-3xl mb-4">
               Ready to Start Your Journey?
